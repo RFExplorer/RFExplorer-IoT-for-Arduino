@@ -1,4 +1,4 @@
-# RFExplorer IoT for Arduino
+# RF Explorer IoT for Arduino
 
 RF Explorer libraries and examples for IoT modules in Arduino.
 
