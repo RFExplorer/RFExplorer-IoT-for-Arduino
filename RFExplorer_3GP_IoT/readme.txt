@@ -3,6 +3,8 @@ RF Explorer 3G+ IoT for Arduino DUE
 
 For more details and reference: http://www.rf-explorer.com/IoT
 
+For examples and library description: https://github.com/RFExplorer/RFExplorer-IoT-for-Arduino/wiki
+
 For contact and support: http://www.rf-explorer.com/contact
 
 --- DESCRIPTION ---
@@ -17,7 +19,8 @@ For details on how to install the library and run the examples, please visit www
 
 --- LICENSE ---
 
-Written by Ariel Rocholl for RF Explorer.
+Copyrighted by Ariel Rocholl, RF Explorer(R).
+
 This library is free software; you can redistribute it and/or modify it under the terms of the
 GNU Lesser General Public License as published by the Free Software Foundation; either
 version 3.0 of the License, or (at your option) any later version.
