@@ -1,7 +1,7 @@
 /*
 
   RF Explorer 3G+ IoT for Arduino - A Spectrum Analyzer for everyone!
-  Copyright © 2010-16 Ariel Rocholl, www.rf-explorer.com
+  Copyright © 2010-17 Ariel Rocholl, www.rf-explorer.com
   
   This sketch is free software; you can redistribute it and/or
   modify it under the terms of the GNU Lesser General Public
@@ -10,7 +10,7 @@
   
   -----------------------------------------------------------------
   
-  Example: RFE_GetPeak - Version 1.0.0 - 2016/12/01
+  Example: RFE_IoT_GetPeak - Version 1.0.0 - 2016/12/01
 
   General Description: 
     Simplest example with RF Explorer 3G+ IoT capturing external Signal Peak.

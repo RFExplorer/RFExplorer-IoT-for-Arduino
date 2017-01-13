@@ -1,6 +1,6 @@
 //============================================================================
 //RF Explorer 3G+ IoT for Arduino - A Spectrum Analyzer for everyone!
-//Copyright © 2010-16 Ariel Rocholl, www.rf-explorer.com
+//Copyright © 2010-17 Ariel Rocholl, www.rf-explorer.com
 //
 //Arduino Buffered Serial
 //A library that helps establish buffered serial communication with a

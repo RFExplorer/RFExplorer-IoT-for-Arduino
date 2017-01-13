@@ -1,6 +1,6 @@
 //============================================================================
 //RF Explorer 3G+ IoT for Arduino - A Spectrum Analyzer for everyone!
-//Copyright � 2010-16 Ariel Rocholl, www.rf-explorer.com
+//Copyright � 2010-17 Ariel Rocholl, www.rf-explorer.com
 //
 //This application is free software; you can redistribute it and/or
 //modify it under the terms of the GNU Lesser General Public
@@ -32,6 +32,9 @@
 
 #define MIN_AMPLITUDE_DBM          -120
 #define MAX_AMPLITUDE_DBM           00
+
+#define _MIN_FREQUENCY_KHZ           15000
+#define _MAX_FREQUENCY_KHZ           2700000
 
 //------------------------- Array Length - This depends on board used----------
 

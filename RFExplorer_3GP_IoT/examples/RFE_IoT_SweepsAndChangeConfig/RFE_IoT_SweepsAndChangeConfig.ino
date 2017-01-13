@@ -1,7 +1,7 @@
 /*
 
   RF Explorer 3G+ IoT for Arduino - A Spectrum Analyzer for everyone!
-  Copyright © 2010-16 Ariel Rocholl, www.rf-explorer.com
+  Copyright © 2010-17 Ariel Rocholl, www.rf-explorer.com
   
   This sketch is free software; you can redistribute it and/or
   modify it under the terms of the GNU Lesser General Public
@@ -10,7 +10,7 @@
   
   -----------------------------------------------------------------
   
-  Example: RFE_SweepsAndChangeConfig - Version 1.0.0 - 2016/12/01
+  Example: RFE_IoT_SweepsAndChangeConfig - Version 1.0.0 - 2016/12/01
 
   General Description: 
     Capture signals for electromagnetic spectrum with RF Explorer 3G+ IoT that is required to study. 
@@ -100,7 +100,7 @@ void loop()
                 g_nSweep++; 
                 if (g_nSweep >= _SWEEPS )
                 {
-                  //Activate flag
+                    //Activate flag
                     bChangeConfig = true;
                     g_nSweep = 0;
                 }
@@ -108,17 +108,16 @@ void loop()
             
             if (bChangeConfig == true)
             {
-                //Recovery properties from object Configuration inside 3G+ object
-                //and add to constant values
+                //Get configuration from RF module and add to constant defined values
                 unsigned long int nStartFreqKHZ = g_objRF.getConfiguration()->getStartKHZ() + _SPAN_KHZ;
                 unsigned long int nEndFreqKHZ = nStartFreqKHZ + _SPAN_KHZ;
                 if (nEndFreqKHZ > g_objRF.getConfiguration()->getMaxFreqKHZ()) 
                 {
-                    //return to initial state put minimum value of Analyzer
+                    //Frequency limit, reconfigure with minimum value of RF module
                     nStartFreqKHZ = g_objRF.getConfiguration()->getMinFreqKHZ();
                     nEndFreqKHZ = nStartFreqKHZ + _SPAN_KHZ;
                 }
-                //Send Command to change configuration
+                //Send Command to change RF module configuration
                 g_objRF.sendNewConfig(nStartFreqKHZ, nEndFreqKHZ);
             }
         }        

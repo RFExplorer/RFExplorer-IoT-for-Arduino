@@ -1,6 +1,6 @@
 //============================================================================
 //RF Explorer 3G+ IoT for Arduino - A Spectrum Analyzer for everyone!
-//Copyright � 2010-16 Ariel Rocholl, www.rf-explorer.com
+//Copyright � 2010-17 Ariel Rocholl, www.rf-explorer.com
 //
 //Contributed by:
 //       Manuel Ballesteros
@@ -40,7 +40,7 @@
 #define MONITOR_SERIAL
 
 #define _HEADER_LIB_3GP  "---RFExplorer 3G+ IoT Arduino---"
-#define _VERSION_LIB_3GP "-------Library v1.0.1612.1------"
+#define _VERSION_LIB_3GP "-------Library v1.0.1701.1------"
 
 //IOT RF Explorer is only supported by Arduino DUE  
 //and Seeeduino UNO (currently version 4.2) platforms, 
@@ -135,10 +135,10 @@ class RFExplorer_3GP_IoT
     // It place Reset pin of RFExplorer 3GP IoT at low level for a certain time.
     void resetHardware() const;
      
-    //Switch RF Explorer communication baud rate. The switch is immediate and it is lost after a reset.
-    //nbaudrate: new velocity for asynchronous communication.
-    //Available baud rates are 2400bps, 4800bps, 9600bps, 19200bps, 38400bps, 57600bps.
-    //For Arduino DUE is possible to reach a speed of 115200bps.
+    //Change RF Explorer UART module communication baud rate. The change is immediate and it is lost after a reset.
+    //nbaudrate: new baudrate for asynchronous UART communication.
+    //Available baud rates are (bps) 2400, 4800, 9600, 19200, 38400, 57600.
+    //For Arduino DUE is possible to work up to 115200.
     void changeBaudrate(uint32_t nbaudrate);
 
     //Change SweepData for success process
