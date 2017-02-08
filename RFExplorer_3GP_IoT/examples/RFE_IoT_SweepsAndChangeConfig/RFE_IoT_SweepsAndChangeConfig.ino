@@ -89,7 +89,7 @@ void loop()
             //Message received was actual sweep data, we can now use internal functions
             //to get sweep data parameters
             unsigned long int nFreqPeakKHZ = 0;
-            short int nPeakDBM=0;
+            int16_t nPeakDBM=0;
             if (g_objRF.getPeak(&nFreqPeakKHZ, &nPeakDBM) ==_RFE_SUCCESS)
             {
                 //Display frequency and amplitude of the signal peak
