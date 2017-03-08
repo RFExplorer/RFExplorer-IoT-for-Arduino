@@ -1,0 +1,26 @@
+--- License Agreement ---
+
+RF Explorer Arduino Libraries is Open Source software released under GPL v3, so you are free to modify, distribute and use it based on GPL terms. Visit www.gnu.org/copyleft/gpl.html for details.
+
+You agree that the software is provided as-is, without warranty of any kind (either express or implied). Accordingly, we make no warranties, representations or guarantees, either express or implied, and disclaims all such warranties, representations or guarantees, including, without limitation, the implied warranties of merchantability and fitness for any particular purpose, as to: (a) the functionality or non-infringement of program, any modification, a combined work or an aggregate work; or (b) the results of any project undertaken using the program, any modification, a combined work or an aggregate work. In no event shall the contributors be liable for any direct, indirect, incidental, special, exemplary, consequential or any other damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of the program, even if advised of the possibility of such damages. You hereby waive any claims for damages of any kind against contributors which may result from your use of the firmware.
+
+--- Copyright notice ---
+
+RF Explorer embedded firmware and Arduino libraries software is copyrighted © by Ariel Rocholl, 2010-2016. 
+RF Explorer is a registered trademark in USA, Australia, Japan, Canada, China an all EU Countries.
+
+--- Open Source ---
+
+This application is Open Source and available under GPL v3 license by Ariel Rocholl. 
+The source code is available at http://github.com/rfexplorer and can be modified, updated and redistributed under GPL license.
+
+--- More Info ---
+
+For general information about RF Explorer, please visit 
+www.rf-explorer.com 
+
+For details about RF Explorer IoT, please visit 
+www.rf-explorer.com/IoT
+
+For questions, please go to RF Explorer forum at 
+www.rf-explorer.com/forum
